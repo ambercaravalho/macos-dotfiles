@@ -6,6 +6,8 @@ Gotta put my macOS config files somewhere, so why not open source them?
 
 ## Packages 📦
 
+Cataloging the packages, formulae, and apps installed on my system as of *March 08, 2025*. If you're not me, then you probably want to skip this section. 😜
+
 1. **Package Manager Install**:
 
     ```console
@@ -41,6 +43,8 @@ Gotta put my macOS config files somewhere, so why not open source them?
 
 ## dotfiles ⚙️
 
+These are mostly just templates provided by the developers. I'll be adding more customizations in the future (maybe).
+
 1. **Get dotfiles**:
 
     ```console
@@ -61,6 +65,8 @@ Gotta put my macOS config files somewhere, so why not open source them?
     ```
 
 ## Extra Configs 🎉
+
+I love forgetting where basic configuration files sit! So here they are.
 
 1. **Sketchybar**:
 
