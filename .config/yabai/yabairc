@@ -13,16 +13,16 @@
 
 # global settings
 yabai -m config                                 \
-    external_bar                 main:32:0      \
+    external_bar                 all:32:0       \
     menubar_opacity              1.0            \
     mouse_follows_focus          off            \
-    focus_follows_mouse          off            \
+    focus_follows_mouse          autofocus      \
     display_arrangement_order    default        \
     window_origin_display        default        \
     window_placement             second_child   \
     window_insertion_point       focused        \
     window_zoom_persist          on             \
-    window_shadow                float          \
+    window_shadow                off            \
     window_animation_duration    0.2            \
     window_animation_easing      ease_out_circ  \
     window_opacity_duration      0.2            \
@@ -33,17 +33,26 @@ yabai -m config                                 \
     split_ratio                  0.50           \
     split_type                   auto           \
     auto_balance                 off            \
-    top_padding                  00             \
-    bottom_padding               00             \
+    top_padding                  03             \
+    bottom_padding               03             \
     left_padding                 05             \
-    right_padding                00             \
-    window_gap                   00             \
+    right_padding                03             \
+    window_gap                   05             \
     layout                       bsp            \
     mouse_modifier               fn             \
     mouse_action1                move           \
     mouse_action2                resize         \
     mouse_drop_action            swap
 
-echo "yabai configuration loaded.."
+# window float settings
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Playdate Simulator$" manage=off
+yabai -m rule --add app="^balenaEtcher$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
+yabai -m rule --add app="^Whisky$" manage=off
+yabai -m rule --add app="^MediaMate$" manage=off
 
-borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=5.0 &
+# jankyborders
+borders style=round active_color=0xffe1e3e4 inactive_color=0xff494d64 width=5.0 hidpi=on &
+
+echo "yabai & jankyborders configuration loaded.."
