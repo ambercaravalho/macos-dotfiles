@@ -70,12 +70,17 @@ I love forgetting where basic configuration files sit! So here they are.
 
 1. **Sketchybar**:
 
+- Sketchybar Man: https://felixkratz.github.io/SketchyBar/config/bar
+
     ```console
     nano ~/.config/sketchybar/sketchybarrc
     brew services restart sketchybar
     ```
 
 2. **Yabai**:
+
+- Yabai Man: https://github.com/koekeishiya/yabai/blob/master/doc/yabai.asciidoc#config
+- JankyBorders Man: https://github.com/FelixKratz/JankyBorders/wiki/Man-Page
 
     ```console
     nano ~/.config/yabai/yabairc
