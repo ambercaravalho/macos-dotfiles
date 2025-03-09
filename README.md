@@ -12,7 +12,7 @@ Gotta put my macOS config files somewhere, so why not open source them?
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-2. **Add Package Repositories**:
+2. **Add Package Repositories (Taps)**:
 
     ```console
     brew tap felixkratz/formulae && brew tap koekeishiya/formulae && brew tap mdogan/zulu
@@ -22,7 +22,7 @@ Gotta put my macOS config files somewhere, so why not open source them?
 (tbh, you prob don't want/need the things i do. this is just here so i can reference in the future.)
 
     ```console
-    brew install borders cmake dotnet hyfetch nvm python@3.13 sketchybar yabai
+    brew install borders cmake dotnet hyfetch mas nvm python@3.13 sketchybar yabai
     ```
 
 4. **My Main Casks**:
@@ -30,6 +30,13 @@ Gotta put my macOS config files somewhere, so why not open source them?
 
     ```console
     brew install appcleaner balenaetcher c0re100-qbittorrent calibre curseforge cyberduck discord docker font-hack-nerd-font krita lm-studio mediamate menu-bar-splitter microsoft-edge playdate-simulator protonvpn qflipper spotify steam swift-quit tor-browser utm visual-studio-code vlc whisky wireshark zulu zulu-jdk8
+    ```
+
+5. **My App Store Apps**:
+(this is just straight up dangerous. pls don't run a command with random numbers in it.)
+
+    ```console
+    mas install 497799835 425424353 1622835804 408981434 409183694 668208984 6661016989 1295203466 409201541 682658836 937984704 409203825
     ```
 
 ## dotfiles ⚙️
