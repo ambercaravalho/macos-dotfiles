@@ -1,4 +1,4 @@
-# macOS dotfiles
+# macOS Packages & dotfiles
 
 Gotta put my macOS config files somewhere, so why not open source them?
 
@@ -6,7 +6,7 @@ Gotta put my macOS config files somewhere, so why not open source them?
 
 ## Packages 📦
 
-1. **Package Manager Install**:
+1. **Package Manager Install**: 
     ```console
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
@@ -26,6 +26,6 @@ Gotta put my macOS config files somewhere, so why not open source them?
     brew install appcleaner balenaetcher c0re100-qbittorrent calibre curseforge cyberduck discord docker font-hack-nerd-font krita lm-studio mediamate menu-bar-splitter microsoft-edge playdate-simulator protonvpn qflipper spotify steam swift-quit tor-browser utm visual-studio-code vlc whisky wireshark zulu zulu-jdk8
     ```
 
-## Dotfiles ⚙️
+## dotfiles ⚙️
 
 put em here
