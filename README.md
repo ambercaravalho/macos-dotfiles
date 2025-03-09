@@ -31,7 +31,7 @@ Cataloging the packages, formulae, and apps installed on my system as of *March 
 (again, you prob don't want all this crap on your system.)
 
     ```console
-    brew install appcleaner balenaetcher c0re100-qbittorrent calibre curseforge cyberduck discord docker font-hack-nerd-font krita lm-studio mediamate menu-bar-splitter microsoft-edge playdate-simulator protonvpn qflipper spotify steam swift-quit tor-browser utm visual-studio-code vlc whisky wireshark zulu zulu-jdk8
+    brew install appcleaner balenaetcher c0re100-qbittorrent calibre curseforge cyberduck discord docker krita lm-studio mediamate microsoft-edge playdate-simulator protonvpn qflipper sf-symbols spotify steam swift-quit tor-browser utm visual-studio-code vlc whisky wireshark zulu zulu-jdk8
     ```
 
 5. **My App Store Apps**:
