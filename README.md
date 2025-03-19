@@ -4,43 +4,6 @@ Gotta put my macOS config files somewhere, so why not open source them?
 
 **Note**: *I'm currently using an M4 MacBook Pro with 16GB RAM and 512GB storage. All packages and dotfiles are tested on macOS 15.3.1.*
 
-## Packages 📦
-
-Cataloging the packages, formulae, and apps installed on my system as of *March 08, 2025*. If you're not me, then you probably want to skip this section. 😜
-
-1. **Package Manager Install**:
-
-    ```console
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-2. **Add Package Repositories (Taps)**:
-
-    ```console
-    brew tap felixkratz/formulae && brew tap koekeishiya/formulae && brew tap mdogan/zulu
-    ```
-
-3. **My Main Formulae**:
-(tbh, you prob don't want/need the things i do. this is just here so i can reference in the future.)
-
-    ```console
-    brew install borders cmake dotnet hyfetch mas nvm python@3.13 sketchybar yabai
-    ```
-
-4. **My Main Casks**:
-(again, you prob don't want all this crap on your system.)
-
-    ```console
-    brew install appcleaner balenaetcher c0re100-qbittorrent calibre curseforge cyberduck discord docker krita lm-studio mediamate microsoft-edge playdate-simulator protonvpn qflipper sf-symbols spotify steam swift-quit tor-browser utm visual-studio-code vlc whisky wireshark zulu zulu-jdk8
-    ```
-
-5. **My App Store Apps**:
-(this is just straight up dangerous. pls don't run a command with random numbers in it.)
-
-    ```console
-    mas install 497799835 425424353 1622835804 408981434 409183694 668208984 6661016989 1295203466 409201541 682658836 937984704 409203825 1451685025 1276493162
-    ```
-
 ## dotfiles ⚙️
 
 These are mostly just templates provided by the developers. I'll be adding more customizations in the future (maybe).
